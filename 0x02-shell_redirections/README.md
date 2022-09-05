@@ -1,1 +1,1 @@
- a shell script that creates a file named exactly
+a script that duplicates the last line of the file iacta
