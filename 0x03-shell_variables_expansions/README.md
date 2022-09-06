@@ -1,1 +1,1 @@
-starting with the first line.
+script that adds the two numbers stored
