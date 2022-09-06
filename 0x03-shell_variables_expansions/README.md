@@ -1,1 +1,1 @@
-a script that prints all possible combinations
+a script that prints a number with two decimal places
