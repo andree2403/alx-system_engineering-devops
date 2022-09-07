@@ -1,1 +1,1 @@
-acrostic is a poem (or other form of writing) in which the first letter
+ a script that parses web servers logs in TSV format
