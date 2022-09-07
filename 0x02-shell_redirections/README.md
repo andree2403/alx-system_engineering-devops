@@ -1,1 +1,1 @@
-a script that lists all the files with a .gif
+acrostic is a poem (or other form of writing) in which the first letter
