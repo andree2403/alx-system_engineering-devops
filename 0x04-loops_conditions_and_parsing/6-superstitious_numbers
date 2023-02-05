@@ -4,20 +4,16 @@
 
 while ((a < 21))
 do
-	if ((a == 4))
-then
 	echo $a
-	echo bad luck from China
-elif ((a == 9))
-then
-	echo $a
-	echo bad luck from Japan
-elif ((a == 17))
-then
-	echo $a
-	echo bad luck from Italy
-else
-	echo $a
-fi
-	((a++))	
+case $a  in
+	"4")
+		echo "bad luck from China"
+		;;
+	"9")
+		echo "bad luck from Japan"
+		;;
+	"17")
+		echo "bad luck from Italy"
+esac
+((a++))
 done
