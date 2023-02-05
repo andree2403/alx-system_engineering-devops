@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# display Best School 10 times using while loop
+((a = 0))
+
+while ((a < 10))
+do
+	if ((a == 8))
+then
+	echo Best School
+	echo Hi
+else
+	echo Best School
+fi
+	((a++))	
+done
