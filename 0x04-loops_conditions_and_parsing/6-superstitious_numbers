@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# display Best School 10 times using while loop
+((a = 1))
+
+while ((a < 21))
+do
+	if ((a == 4))
+then
+	echo $a
+	echo bad luck from China
+elif ((a == 9))
+then
+	echo $a
+	echo bad luck from Japan
+elif ((a == 17))
+then
+	echo $a
+	echo bad luck from Italy
+else
+	echo $a
+fi
+	((a++))	
+done
