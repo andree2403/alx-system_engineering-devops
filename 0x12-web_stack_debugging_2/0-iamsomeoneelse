@@ -5,7 +5,7 @@ if [ "$#" -gt 1 ]; then
 exit 1
 fi
 for input in "$@"; do
-su $input
+sudo su "$input"
 username=$(whoami)
 echo "$username"
 done
