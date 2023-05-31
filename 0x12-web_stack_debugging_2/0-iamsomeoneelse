@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# script should run the whoami command under the user passed as an argument
+
+if [ "$#" -gt 1 ]; then
+exit 1
+fi
+for input in "$@"; do
+su $input
+username=$(whoami)
+echo "$username"
+done
