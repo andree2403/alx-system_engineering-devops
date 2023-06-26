@@ -1,5 +1,6 @@
 import requests
 import csv
 
-response = requests.get('https://jsonplaceholder.typicode.com/users/1/todos').json()
-print("{}".format(len(response)))
+response = requests.get('https://jsonplaceholder.typicode.com/users/').json()
+for r in response:
+    print(r['id'])
